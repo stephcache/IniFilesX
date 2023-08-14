@@ -47,3 +47,7 @@ String IniFileX::readVariable(const String& section, const String& variable) {
  return "";
 }
 
+int IniFileX::getSDPin() {
+  return _sdPin;
+
+}
